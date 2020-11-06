@@ -1,0 +1,36 @@
+//{
+//  "version": "1.0",
+//  "defaultProvider": "cdnjs",
+//  "libraries": [
+//    {
+//      "library": "twitter-bootstrap@4.5.0",
+//      "destination": "wwwroot/lib/bootstrap",
+//      "files": [ "js/bootstrap.min.js", "css/bootstrap.min.css" ]
+//    },
+//    {
+//      "library": "popper.js@2.4.3",
+//      "destination": "wwwroot/lib/popper",
+//      "files": [ "umd/popper.js" ]
+//    },
+//    {
+//      "library": "apexcharts@3.19.3",
+//      "destination": "wwwroot/lib/apex/",
+//      "files": [ "apexcharts.min.css", "apexcharts.js" ]
+//    },
+//    {
+//      "library": "jquery@3.1.1",
+//      "destination": "wwwroot/lib/jquery/",
+//      "files": [ "jquery.js", "core.js" ]
+//    }
+//    {
+//      "library": "jquery.perfect-scrollbar@1.4.0",
+//      "destination": "wwwroot/lib/cork/plugins/perfect-scrollbar/",
+//      "files": [ "perfect-scrollbar.js", "perfect-scrollbar.min.js", "css/perfect-scrollbar.css" ]
+//    },
+//    //{
+//    //  "library": "highlight.js@10.1.1",
+//    //  "destination": "wwwroot/lib/cork/plugins/highlight/",
+//    //  "files": [ "styles/monokai-sublime.min.css" ]
+//    //}
+//  ]
+//}

@@ -1,0 +1,24 @@
+﻿@model ErrorViewModel
+@{
+    if (Model == null)
+        ViewData["Title"] = "Error";
+    else
+        ViewData["Title"] = Model.Titulo;
+}
+
+
+@if (Model == null)
+{
+    <div>
+        <h2>
+            Ooops! erro ocorrido.
+        </h2>
+    </div>
+}
+else
+{
+    <h1>@Html.Raw(Model.Titulo)</h1>
+    <h2>@Html.Raw(Model.Mensagem)</h2>
+}
+
+
